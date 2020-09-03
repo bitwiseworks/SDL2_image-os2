@@ -1,2 +1,15 @@
 # ignore external dir
 external/*
+
+#ignore regenerated files
+autom4te.cache
+configure
+config.guess
+config.sub
+depcomp
+Makefile.in
+aclocal.m4
+compile
+install-sh
+ltmain.sh
+missing
