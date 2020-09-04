@@ -64,6 +64,8 @@ libSDL2_image_la_LDFLAGS = 	\
 libSDL2_image_la_LIBADD = $(IMG_LIBS)
 endif
 
+libSDL2_image_la_LDFLAGS += -shortname SDL2I
+
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = SDL2_image.pc
 
